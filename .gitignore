@@ -1,0 +1,11 @@
+.pio/
+.vscode/
+build/
+.DS_Store
+*.o
+*.a
+*.so
+.env
+firmware.bin
+.clang_complete
+.gcc-flags.json
