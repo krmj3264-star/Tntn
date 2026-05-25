@@ -1,0 +1,9 @@
+This is a placeholder firmware binary file for Tntn ESP32-S3 project.
+
+To generate the actual firmware binary:
+1. Run the build script: bin/BUILD_FIRMWARE.sh (Linux/Mac) or bin/BUILD_FIRMWARE.bat (Windows)
+2. The actual binary will be generated at: .pio/build/lilygo-t-hmi/firmware.bin
+3. Upload that binary to your GitHub Release
+
+This is a test file to demonstrate the Release structure.
+For production use, replace with the actual compiled firmware binary.
