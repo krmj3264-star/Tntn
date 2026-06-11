@@ -1,11 +1,117 @@
+# PlatformIO Build Files
 .pio/
+.platformio/
 .vscode/
-build/
+.pioenvs/
+.piolibdeps/
+*.pyc
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+*.code-workspace
+Thumbs.db
+
+# Build Artifacts
+build/
+build_output/
 *.o
 *.a
 *.so
+*.exe
+*.elf
+*.hex
+
+# Firmware Binaries (except placeholder)
+# Note: firmware/firmware.bin is kept as placeholder
+# Real binaries go to build_output/
+.pio/build/*/firmware.bin
+.pio/build/*/firmware.elf
+
+# Configuration Files (SECURITY CRITICAL!)
+include/config.h
+include/config.*.h
+config.local.h
+
+# Environment Variables & Secrets
 .env
-firmware.bin
+.env.local
+.env.*.local
+secrets.txt
+*.key
+*.pem
+
+# Serial Monitor & Debugging
+.gdb_history
+core
+*.core
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+*.swo
+*.log
+
+# Compilation Database
+compile_commands.json
 .clang_complete
 .gcc-flags.json
+
+# OS-Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+
+# Node (if used)
+node_modules/
+package-lock.json
+
+# Backup & Archive
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Test Outputs
+test_output/
+test_results/
+.coverage
+
+# Documentation Generated Files
+docs/_build/
+site/
+
+# Git
+.git/
+.gitignore
+
+# Personal Notes
+notes.txt
+TODO.txt
+PERSONAL.md
+
+# Build System
+dist/
+*.egg-info/
+setup.py.bak
